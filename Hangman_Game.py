@@ -1,4 +1,3 @@
-import os
 import random
 
 # Hangman game
@@ -12,7 +11,7 @@ import random
 
 
 
-WORDLIST_FILENAME = os.path.expanduser("~/Desktop/words.txt")
+WORDLIST_FILENAME = "words.txt"
 
 def loadWords():
     """
